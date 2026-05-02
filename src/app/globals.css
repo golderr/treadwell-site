@@ -39,3 +39,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   letter-spacing: -0.02em;
 }
+
+/* Admin markdown prose styles */
+.prose-admin {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-navy);
+}
+.prose-admin h1 { font-size: 28px; font-weight: 900; margin: 2em 0 0.6em; }
+.prose-admin h2 { font-size: 22px; font-weight: 800; margin: 1.8em 0 0.5em; border-bottom: 1px solid var(--color-silver-light); padding-bottom: 0.3em; }
+.prose-admin h3 { font-size: 17px; font-weight: 700; margin: 1.5em 0 0.4em; }
+.prose-admin h4 { font-size: 15px; font-weight: 700; margin: 1.2em 0 0.3em; }
+.prose-admin p { margin: 0 0 1em; }
+.prose-admin ul, .prose-admin ol { margin: 0 0 1em; padding-left: 1.5em; }
+.prose-admin li { margin-bottom: 0.3em; }
+.prose-admin li::marker { color: var(--color-silver-dark); }
+.prose-admin strong { font-weight: 700; }
+.prose-admin a { color: #DC2626; text-decoration: underline; }
+.prose-admin a:hover { color: #b91c1c; }
+.prose-admin code { font-size: 13px; background: var(--color-surface); padding: 0.15em 0.4em; border-radius: 4px; }
+.prose-admin pre { background: var(--color-navy); color: #e2e8f0; padding: 1em; border-radius: 6px; overflow-x: auto; margin: 0 0 1em; }
+.prose-admin pre code { background: none; padding: 0; font-size: 13px; }
+.prose-admin blockquote { border-left: 3px solid var(--color-cherry); padding-left: 1em; margin: 0 0 1em; color: var(--color-silver-dark); }
+.prose-admin table { width: 100%; border-collapse: collapse; margin: 0 0 1em; font-size: 14px; }
+.prose-admin th, .prose-admin td { border: 1px solid var(--color-silver-light); padding: 0.5em 0.75em; text-align: left; }
+.prose-admin th { background: var(--color-surface); font-weight: 700; }
+.prose-admin hr { border: none; border-top: 1px solid var(--color-silver-light); margin: 2em 0; }
+.prose-admin del { color: var(--color-silver-dark); }
+.prose-admin input[type="checkbox"] { margin-right: 0.5em; accent-color: #DC2626; }
